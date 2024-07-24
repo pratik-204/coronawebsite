@@ -1,0 +1,43 @@
+#navbar ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+#navbar ul {
+  list-style:none;
+}
+#navbar ul  a{
+     text-transform: uppercase;
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     font-size: 0.875em;
+     padding: 1em;
+     white-space: nowrap;
+     letter-spacing: 1px;
+ }
+ #navbar ul  a:hover{
+     border-bottom:3px solid black;
+}
+.head{
+    background:url("https://i.pinimg.com/originals/09/65/ea/0965ea8550db6ee0e4bc3c65dd802d4b.jpg") no-repeat center;
+    font:normal 16px/1.5 "Helvetica New";
+    color:white;
+    background-size: 100%;
+   
+    padding: bottom 50px;
+    position: relative;
+    text-align:center;
+}
+.content{
+    margin-top:50px; 
+    font-family: Helvetica;
+}
+.about{
+    background:url("https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png") no-repeat center;
+    background-size: cover;
+    padding: 20px;
+}
+.abt{
+margin-top: 120px;
+}

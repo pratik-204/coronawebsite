@@ -1,0 +1,49 @@
+ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+ul li{
+  list-style:none;
+}
+ ul li a{
+     text-transform: uppercase;
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     font-size: 0.875em;
+     padding: 1em;
+     white-space: nowrap;
+     letter-spacing: 1px;
+ }
+ ul li a:hover{
+     border-bottom:3px solid white;
+
+ }
+ .header{
+     padding: 20px;
+     height:100vh;
+     background:url("Coronavirus-1.jpg") no-repeat center;
+     background-size : cover;
+     position:relative;
+
+    }
+    .header h1{
+        margin:0;
+        font-weight:900;
+        font-size:3rem;
+        text-align:center;
+        color:white;
+        margin-bottom:20px;
+        margin-top:300px;
+    }
+    .about{
+           background:url("https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png") no-repeat center;
+        background-size:cover;
+        }
+    .abt {
+        text-align:center;
+        color:white;
+        margin:0px;
+        padding:20px;
+        }

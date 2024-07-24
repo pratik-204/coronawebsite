@@ -1,0 +1,75 @@
+ #navbar ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+#navbar ul {
+  list-style:none;
+}
+#navbar ul  a{
+     text-transform: uppercase;
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     font-size: 0.875em;
+     padding: 1em;
+     white-space: nowrap;
+     letter-spacing: 1px;
+ }
+ #navbar ul  a:hover{
+     border-bottom:3px solid black;
+}
+body{
+    background:url("corona.jpeg") no-repeat center;
+    font:normal 16px/1.5 "Helvetica New";
+    color:white;
+    overflow-x:hidden;
+    padding: bottom 50px;
+    background-size:cover;
+}
+.intro{
+    padding:100px 0;
+}
+.container{
+    width:90%;
+    max-width :1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size:5rem;
+}
+.timeline ul{
+    list-style-type: none;
+    padding:50px 0;
+}
+.timeline ul li{
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: white;
+}
+.timeline ul li div{
+    position:relative;
+    bottom:0;
+    width:400px;
+    padding:15px;
+    background:#f45b69;
+    visibility:hidden;
+    opacity: 0;
+    transition: all 2s;
+}
+.timeline ul li:nth-child(odd) div{
+    left:45px;
+    transform:translate(200px);
+}
+.timeline ul li:nth-child(even) div{
+    right: 445px;
+    transform:translate(-200px);
+}
+.timeline ul li.in-view div{
+    opacity:1;
+    visibility: visible;
+    transform: none;
+}
